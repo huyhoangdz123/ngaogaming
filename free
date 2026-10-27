@@ -2927,7 +2927,7 @@ end
 L.Digest = fv
 
 -- ===== DEV / PREMIUM PATCH =====
-local FREE_MODE = true -- true = bỏ hoàn toàn key (ai cũng dùng được)
+local FREE_MODE = true
 local DEV_HASHES = {["045df30710c18e69"] = true} -- hash của key dev vĩnh viễn
 local DEV_EXPIRE = 4102444800 -- năm 2100
 -- ================================

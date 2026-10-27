@@ -48,7 +48,7 @@ end
 local function xl(m)
 	warn("[Sae] " .. m)
 	zx("[Load] " .. m, true)
-	pcall(function() game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Ngao - Gaming Hub", Text = m, Duration = 15}) end)
+	pcall(function() game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Quyết Ly", Text = m, Duration = 15}) end)
 end
 local es, ad, si, cy, rg, ai, er, sv, rm
 do
@@ -3888,8 +3888,8 @@ end
 if ge.__SaeD then pcall(function() ge.__SaeD:Destroy() end) end
 ge.__SaeD = nil
 if ge.__AvW then pcall(ge.__AvW.Destroy, ge.__AvW) end
-L:Gate({Title = "Quyết Ngu", Server = "https://getkey.kaeldrinnovasse.workers.dev", Hub = "sae", Discord = "https://discord.gg/fTQF5TvfEJ", Config = "StealAnEgg"})
-local W = L:Window({Title = "Ngao - Gaming Hub | Steal An Egg", Config = `StealAnEgg/{lp.Name}`})
+L:Gate({Title = "Quyết Ly", Server = "https://getkey.kaeldrinnovasse.workers.dev", Hub = "sae", Discord = "https://discord.gg/fTQF5TvfEJ", Config = "StealAnEgg"})
+local W = L:Window({Title = "Quyết Ly", Config = `StealAnEgg/{lp.Name}`})
 do
 	local wn = W.Notify
 	W.Notify = function(s2, o)
